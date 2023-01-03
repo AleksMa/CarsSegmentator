@@ -1,0 +1,18 @@
+IMG_SIZE = 256
+BATCH_SIZE = 4
+EPOCHS = 100
+
+IMG_TRAIN_DIR = 'src/train/img/'
+LABLE_TRAIN_DIR = 'src/train/label/'
+IMG_TEST_DIR = 'src/test/img/'
+RESULT_DIR = 'src/test/results/'
+
+BACKGROUND = [255, 255, 255]
+CAR = [255, 0, 0]
+WHEEL = [0, 0, 0]
+LIGHTS = [255, 255, 0]
+WINDOW = [0, 0, 255]
+COLORS = [BACKGROUND, CAR, WHEEL, LIGHTS, WINDOW]
+CLASSES = len(COLORS)
+
+GENERATE_EXTRA_SAMPLES = True

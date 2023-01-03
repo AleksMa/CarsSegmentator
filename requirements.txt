@@ -1,0 +1,12 @@
+
+imutils
+keras
+matplotlib
+numpy
+opencv-python
+scikit-image
+scikit-learn
+
+# tensorflow
+tensorflow-macos
+tensorflow-metal
